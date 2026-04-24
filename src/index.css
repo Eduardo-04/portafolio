@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@import url('https://fonts.cdnfonts.com/css/tahoma');
+
+:root {
+  cursor: url('https://cur.cursors-4u.net/games/gam-4/gam384.cur'), auto !important;
+}
+
+body {
+  font-family: 'Tahoma', sans-serif;
+  margin: 0;
+  overflow: hidden;
+  user-select: none;
+  background-color: black;
+}
+
+button, a, .pointer-cursor {
+  cursor: url('https://cur.cursors-4u.net/games/gam-4/gam376.cur'), pointer !important;
+}
+
+.window-content {
+  user-select: text !important;
+  cursor: text !important;
+}
+
+::-webkit-scrollbar { width: 16px; }
+::-webkit-scrollbar-track { background: #f1f1f1; border-left: 1px solid #ccc; }
+::-webkit-scrollbar-thumb {
+  background: #d4d0c8;
+  border: 1px solid #fff;
+  box-shadow: inset -1px -1px #808080, inset 1px 1px #fff;
+}
